@@ -1,6 +1,12 @@
 # 文本
 
-## 全局设置
+    文本全局设置
+    内联文本
+    对齐及大小写
+    缩略语
+    引用
+
+## 文本全局设置
 
 Bootstrap中variables.less 文件中定义的两个 Less 变量决定了排版尺寸：@font-size-base 和 @line-height-base。
 
@@ -10,7 +16,7 @@ Bootstrap中variables.less 文件中定义的两个 Less 变量决定了排版�
 
 
 ### 标题
-HTML 中的所有标题标签，<h1> 到 <h6> 均可使用。
+HTML 中的所有标题标签，`<h1> 到 <h6>` 均可使用。
 
 ```HTML
 <h1>h1. Bootstrap heading</h1>
@@ -27,17 +33,17 @@ Bootstrap 将<body> 元素和所有段落<p>元素全局 字体大小font-size= 
 
 ## 内联文本
 
-|名称|关键字|实例|
-|-|-|-|
-|标记|mark|tag to <mark>highlight</mark> text|
-|插入|ins|tag to <ins>highlight</ins> text|
-|删除|del|tag to <del>highlight</del> text|
-|下划线|u|tag to <u>highlight</u> text|
-|小号文本|samll|tag to <samll>highlight</samll> text|
-|重点文本|strong|tag to <strong>highlight</strong> text|
-|斜体文本|em|tag to <em>highlight</em> text|
+|名称|关键字|实例|代码|
+|-|-|-|-|
+|标记|mark|tag to <mark>highlight</mark>   text|`<mark>highlight</mark>`|
+|插入|ins|tag to <ins>highlight</ins> text|`<ins>highlight</ins>`|
+|删除|del|tag to <del>highlight</del> text|`<del>highlight</del>`|
+|下划线|u|tag to <u>highlight</u> text|`<u>highlight</u>`|
+|小号文本|small|tag to <small>highlight</small> text|`<small>highlight</small>`|
+|重点文本|strong|tag to <strong>highlight</strong> text|`<strong>highlight</strong>`|
+|斜体文本|em|tag to <em>highlight</em> text|`<em>highlight</em>`|
 
-## 对齐
+## 对齐及大小写
 
 通过文本对齐类，可以简单方便的将文字重新对齐。
 
@@ -47,11 +53,7 @@ Bootstrap 将<body> 元素和所有段落<p>元素全局 字体大小font-size= 
 <p class="text-right">Right aligned text.</p>
 <p class="text-justify">Justified text.</p>
 <p class="text-nowrap">No wrap text.</p>
-```
 
-## 大小写
-
-```HTML
 <p class="text-lowercase">Lowercased text.</p>
 <p class="text-uppercase">Uppercased text.</p>
 <p class="text-capitalize">Capitalized text.</p>
