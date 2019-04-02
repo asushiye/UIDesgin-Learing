@@ -3,7 +3,7 @@
     边框 - border
     大小 - sizing
     边界 - margin padding
-    颜色 - color
+    文本&背景 - color
     关闭图标 - close
 
 
@@ -97,8 +97,9 @@ auto - for classes that set the margin to auto
 
 ```
 
-## 颜色 - color
+## 文本&背景颜色 - color
 
+文本颜色
 ```html
 <p class="text-primary">.text-primary</p>
 <p class="text-secondary">.text-secondary</p>
@@ -110,9 +111,10 @@ auto - for classes that set the margin to auto
 <p class="text-dark">.text-dark</p>
 <p class="text-muted">.text-muted</p>
 <p class="text-white bg-dark">.text-white</p>
+```
 
 背景颜色
-
+```html
 <div class="p-1 mb-2 bg-primary">.bg-primary</div>
 <div class="p-1 mb-2 bg-secondary">.bg-secondary</div>
 <div class="p-1 mb-2 bg-success">.bg-success</div>
@@ -122,9 +124,7 @@ auto - for classes that set the margin to auto
 <div class="p-1 mb-2 bg-light">.bg-light</div>
 <div class="p-1 mb-2 bg-dark">.bg-dark</div>
 <div class="p-1 mb-2 bg-white">.bg-white</div>
-
 ```
-
 
 ## 关闭图标 - close
 
